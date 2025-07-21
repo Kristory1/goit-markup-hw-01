@@ -2,6 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 a {
@@ -11,6 +14,22 @@ a {
 ul,
 ol {
   list-style-type: none;
+}
+
+.header-cont {
+  border-bottom: 1px solid #e7e9fc;
+  width: 100%;
+  height: 72px;
+  background: #fff;
+  display: flex;
+}
+
+.header-cont nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .logo {
@@ -37,6 +56,10 @@ ol {
   color: #f4f4fd;
 }
 
+.header-list {
+  display: flex;
+}
+
 .header-list-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -58,6 +81,9 @@ ol {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
+.address-cont ul {
+  display: flex;
+}
 
 .address-item {
   font-family: "Roboto", sans-serif;
@@ -78,6 +104,13 @@ ol {
 
 .main-page-cont {
   background-color: #2e2f42;
+  width: 100%;
+  height: 600px;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .main-page-title {
@@ -86,19 +119,25 @@ ol {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 
 .main-page-button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-sizing: border-box;
+
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+
   cursor: pointer;
 }
 
@@ -130,6 +169,8 @@ ol {
 
 .team-cont {
   background-color: #f4f4fd;
+  box-sizing: border-box;
+  display: flex;
 }
 
 .team-title {
@@ -141,10 +182,20 @@ ol {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  position: relative;
+}
+
+.team-list {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  align-items: center;
 }
 
 .team-list-title {
